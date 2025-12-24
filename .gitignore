@@ -1,0 +1,38 @@
+# Noir build artifacts
+target/
+proofs/
+
+# Prover inputs (generated from inputs.txt)
+Prover.toml
+
+# Verifier
+Verifier.toml
+
+# Private keys and sensitive data
+inputs.txt
+*.pem
+*.key
+
+# Foundry/Cast keystores (NEVER commit private keys!)
+.foundry/
+keystores/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
