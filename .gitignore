@@ -1,6 +1,7 @@
 # Noir build artifacts
 target/
 proofs/
+out/
 
 # Prover inputs (generated from inputs.txt)
 Prover.toml
